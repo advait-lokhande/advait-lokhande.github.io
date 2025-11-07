@@ -8,7 +8,7 @@ Stack:
 - [markedjs](https://github.com/markedjs/marked) for rendering markdown files in the browser
 
 # About Me
-**Namaste, I am Advait Lokhande**
+**Namaste, I am Advait Lokhande**  
 Electronics & Computer Science Engineer | R&D in Software, Embedded Systems, AI-ML
 
 ---
