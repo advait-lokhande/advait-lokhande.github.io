@@ -1,4 +1,14 @@
-# Namaste, I am Advait Lokhande
+# Advait Lokhande - Personal Website
+
+This repo contains the code for my personal website - [advait-lokhande.github.io](advait-lokhande.github.io)  
+Started on: 05th July 2025  
+
+Stack:
+- HTML, CSS, Vanilla JS  
+- [markedjs](https://github.com/markedjs/marked) for rendering markdown files in the browser
+
+# About Me
+**Namaste, I am Advait Lokhande**
 Electronics & Computer Science Engineer | R&D in Software, Embedded Systems, AI-ML
 
 ---
@@ -35,19 +45,19 @@ Here is a __project__ which I did some time ago:
 Pod Car Steering Control | D&O Motorsports | January 2020 - March 2020
 - Designed embedded electronics and Software for remote steering control system for a stunt car featured in
 Netflix’s “AK vs AK.” Implemented closed-loop motor control using encoder feedback.
-- Project video: https://youtu.be/TNR9Ljo9HM4
+- Project video: [https://youtu.be/TNR9Ljo9HM4](https://youtu.be/TNR9Ljo9HM4)
   
 #### Technical Skills  
 ---
 - Software Engineering: Full-Stack Development, Cross-Platform Apps, Web Apps, IoT Middleware Apps, Automation, RPA, Scripting, DevOps, SDLC, Agile/Scrum, Software Testing & Debugging  
 - Programming & Scripting: Python, C, C++, Java, Rust, JavaScript (ES6+), HTML5/CSS3, SQL, Node.js  
-- Stack: Frameworks & Libraries - MERN, React, Bootstrap, Express.js, jQuery, Flask, Django | Databases -MySQL, SQLite, MongoDB | Cloud Platforms - AWS / Azure | RESTful APIs, WebSockets, MQTT, HTTP/HTTPS, JSON/XML  
+- Stack: Frameworks & Libraries - MERN, React, Bootstrap, Express.js, jQuery, Flask, Django \| Databases -MySQL, SQLite, MongoDB \| Cloud Platforms - AWS / Azure \| RESTful APIs, WebSockets, MQTT, HTTP/HTTPS, JSON/XML  
 - Tools & Platforms: Linux (Bash, Shell scripting), Git/GitHub, Docker, Virtual Machines, CI/CD (GitHub Actions, Jenkins), Server Configuration, Networking, Selenium  
 - Technologies: Internet of Things (IoT), Edge Computing, AI/ML Fundamentals (NumPy,
 Pandas, Scikit-learn), Data Analytics & Visualization
 
 #### Other stuff
 ---
-- I am actively involved in playing Tabla (percussion instrument) and making music since more than 15 years.
+- I have been actively playing Tabla (Indian Classical Percussion instrument) and making music since more than 15 years.
 
 ---
