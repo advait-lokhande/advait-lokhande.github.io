@@ -1,22 +1,22 @@
-# Advait Lokhande - Personal Website
 
 This repo contains the code for my personal website - [advait-lokhande.github.io](advait-lokhande.github.io)  
+
 Started on: 05th July 2025  
 
-Stack:
+#### Stack:
 - HTML, CSS, Vanilla JS  
 - [markedjs](https://github.com/markedjs/marked) for rendering markdown files in the browser
 
-# About Me
-**Namaste, I am Advait Lokhande**  
-Electronics & Computer Science Engineer | R&D in Software, Embedded Systems, AI-ML
-
 ---
-_Thank you for visiting this site, but currently it's a work in progress, please revisit soon!_   
+Thank you for visiting this site, but currently it's a **work in progress**, please revisit soon!   
 Meanwhile you can reach me on [Linkedin](https://linkedin.com/in/advait-lokhande) 
 or [Instagram](https://www.instagram.com/advait.projx/)
+or read more below
 
-
+---
+## About Me
+**Namaste, I am Advait Lokhande**  
+Electronics & Computer Science Engineer | R&D in Software, Embedded Systems, AI-ML
 
 #### Summary:
 ---
@@ -25,7 +25,7 @@ Innovative and detail-oriented Engineer with expertise in software development, 
 #### What do I do?  
 ---
 - I work on R&D Projects (freelance/consultant/researcher) in AI-ML, Embedded Systems, IoT, Robotics, Cloud, edge computing, middleware, etc. (March 2019 - August 2024)  
-- I am _looking_ for creatively challenging opportunities in R&D and Engineering to join after my post-grad program (June 2026). Open to full time as well as other roles.
+- I am looking for creatively challenging opportunities in R&D and Engineering to join after my post-grad program (June 2026). Open to full time as well as other roles.
 
 #### Education
 ---
