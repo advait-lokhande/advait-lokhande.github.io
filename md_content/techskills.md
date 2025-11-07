@@ -1,0 +1,9 @@
+- Firmware & Application development: RTOS, Baremetal, Embedded Linux, Web Apps, Cloud middleware, cross
+- platform app development
+- Hardware: Digital Deesign, PCB Design, Prototyping, Testing, Debugging
+- MCU/SoC/SoM/SBC Platforms: TI MSP430/32, ATMega AVR series, 8051 series, Cortex- M architectures,
+- Arduino, NodeMCU, ESP32, NRF52, TI CC2640, NXP i.Mx8, Raspberry Pi
+- Communication Protocols: CAN, Modbus, I2C, SPI, UART, WiFi, Bluetooth/BLE 5, NRF, GPRS/GSM, GPS,
+- OBD2 — MQTT, WebSockets
+- Languages: Embedded C, C++, Assembly, Python, HTML/CSS, JavaScript, SQL, NodeJs, React
+- Technologies/Frameworks/Tools: Linux, Dockers, Git, VMs, 3D Printing, Rapid Prototyping

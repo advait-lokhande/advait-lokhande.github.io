@@ -1,0 +1,8 @@
+- EECS
+  - Embedded Systems - Firmware, RTOS, ... 
+  - Internet of Things - Protocols, Cloud integration, ...
+  - AI/ML on Embedded Systems
+- Music
+    - Tabla
+    - Drums & Other percussion instruments
+    - Music Production

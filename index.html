@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./styles.css">
+    
+    <!-- todo: self hos fonts in libs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="./assets/al_icon_v0.png" type="image/x-icon">
+    <title>Advait Lokhande</title>
+</head>
+<body>
+    <div class="body">
+
+        <div id='header' class="header">
+            <div class="name"><a href="/index.html">अद्वैत लोखंडे | Advait Lokhande</a></div>
+            <div class="navbar">
+                <div class="navbarItem" id="nav_Home" onclick="navbarclick(this.id)">
+                    <a href="/index.html">Home</a>
+                </div>
+                <div class="navbarItem" id="nav_About" onclick="navbarclick(this.id)">
+                    <a href="/">About</a>
+                </div>
+                <div class="navbarItem" id="nav_Projects" onclick="navbarclick(this.id)">
+                    <a href="/">Projects</a>
+                </div>
+                <div class="navbarItem" id="nav_Music" onclick="navbarclick(this.id)">
+                    <a href="/">Music</a>
+                </div>
+                <div class="navbarItem" id="nav_Blogs" onclick="navbarclick(this.id)">
+                    <a href="/">Blogs</a>
+                </div>
+                <div class="navbarItem" id="nav_Life" onclick="navbarclick(this.id)">
+                    <a href="/">Life</a>
+                </div>
+                <div class="navbarItem" id="nav_People" onclick="navbarclick(this.id)">
+                    <a href="/">People</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="intro">
+            <div>
+                <img src="./assets/advait_dp.jpg" alt="" class="dpImg"> 
+                <!-- <img src="./assets/white_bg_Sqr.png" alt="" class="dpImg">  -->
+            </div>
+            <div class="namasteBlock">
+                <p>
+                    <!-- <img src="./assets/prayingWhite.png" alt="" class="namasteImg">  -->
+                    <span class="namaste"> Namaste!</span>  
+                    <!-- <br> -->
+                <!-- </p>
+                <p> -->
+                    I passionately research, design, make & (purposefully) break stuff 
+                    as a student of 
+                    Electronics & Computer Science Engineering, 
+                    Entrepreneurship 
+                    and 
+                    Music (Tabla).
+                </p>
+                <p>
+                    <!-- This site is mostly about these shenanigans of mine.  -->
+                    <!-- Here, you can find more about me and my projects. -->
+                    Here, you can find more about me and my shenanigans.
+                </p>
+            </div>
+        </div>
+
+        <div class="midBlocksContainer">
+
+            <div class="midBlock">
+                <div class="midBlockHeader">
+                    Areas of Interest / Focus:
+                </div>
+                <div id="areas" class="midBlockContent"></div>
+
+            </div>
+
+            <div class="midBlock">
+                <div class="midBlockHeader">
+                    Updates:
+                </div>
+                <div id="updates" class="midBlockContent"></div>
+            </div>
+
+            <div class="midBlock">
+                <div class="midBlockHeader">
+                    Education:
+                </div>
+                <div id="edu" class="midBlockContent"></div>
+            </div>
+
+            <div class="midBlock">
+                <div class="midBlockHeader">
+                    Work Experience:
+                </div>
+                <div id="workexp" class="midBlockContent"></div>
+            </div>
+
+            <div class="midBlock">
+                <div class="midBlockHeader">
+                    Technical Skills:
+                </div>
+                <div id="techskills" class="midBlockContent mdload" ></div>
+            </div>
+
+        </div>
+
+        <div id="footer" class="footer">
+            <div class="copyright">
+                <a href="./copyright.html" class="licenselink">© 2025 Advait Lokhande</a>
+            </div>
+        </div>
+    
+    </div>
+
+    <!-- <script src="./libs/jquery-3.6.0.min.js"></script> -->
+    <script src="./libs/jquery-3.6.0.min.js"></script>
+    <script src="./libs/marked.umd.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

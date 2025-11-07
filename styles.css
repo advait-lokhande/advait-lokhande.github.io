@@ -1,0 +1,132 @@
+body {
+    color: antiquewhite;
+    background-color: black;
+    font-size: 1rem;
+    font-family: "Kalam";
+}
+
+a, a:visited {
+    text-decoration: inherit;
+    color: inherit;
+    font: inherit;    
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 1200px;
+    min-height: 98vh;
+    margin: auto;
+    /* border: 0.1rem solid white; */
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 0.5rem 0;
+    border-bottom: 0.01rem solid #ffffff;
+    
+}
+
+.name {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbarItem {
+    margin: 0.2rem;
+    padding: 0.1rem;
+    border-bottom: 0.1rem solid #ffffff00;
+}
+
+.navbarItem:hover {
+    border-bottom: 0.01rem solid #ffffff90;
+    cursor: pointer;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+    /* justify-content: space-between; */
+    /* width: 20rem; */
+    /* font-size: 1.2rem; */
+}
+
+.dpImg {
+    width: 6rem;
+    border-radius: 50%;
+    border: 0.1rem solid white;
+    padding: 0.25rem;
+    margin-right: 2rem;
+    /* height: 5rem; */
+}
+
+.namaste {
+    font-size: 1rem;
+}
+
+
+.namasteImg {
+    width: 1.2rem;
+    padding: 0 0.5rem;
+    /* height: 2rem; */
+}
+
+.midBlocksContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.midBlock {
+    display: flex;
+    flex-direction: column;
+    width: 46.5%;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+    /* min-height: 350px; */
+    /* border: 0.01rem solid white; */
+    border-radius: 0.2rem;
+}
+
+.midBlockHeader {
+    padding: 0.5rem 0 1rem 0;
+    /* text-align: center; */
+    /* font-size: 1.2rem; */
+    border-bottom: 0.01rem solid white;
+    font-weight: bold;
+    /* text-decoration-line: underline; */
+}
+
+.footer {
+    border-top: 0.01rem solid white ;
+    margin-top: auto;
+    /* stay at bottom */
+    padding: 0.5rem 0;
+}
+
+.copyright {
+    text-decoration: inherit;
+    font-size: 0.8rem;
+    color: inherit;
+}
+
+.copyright a, a:visited{
+    color: inherit;
+}
