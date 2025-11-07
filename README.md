@@ -1,5 +1,5 @@
 
-This repo contains the code for my personal website - [https://advait-lokhande.github.io](advait-lokhande.github.io)  
+This repo contains the code for my personal website - [advait-lokhande.github.io](advait-lokhande.github.io)  
 
 Started on: 05th July 2025  
 
