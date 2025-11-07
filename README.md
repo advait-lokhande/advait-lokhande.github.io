@@ -30,13 +30,12 @@ Innovative and detail-oriented Engineer with expertise in software development, 
 #### Education
 ---
 - Pursuing MTech in Computer Engineering from [VJTI, Mumbai](https://vjti.ac.in) (2024 - 2026). _Current CGPA - 8.67/10_
-- B.E. in Electronics Engineering from [DMCE, Airoli](https://dmce.ac.in) (2015-2019)  
+- B.E. in Electronics Engineering from [DMCE, Airoli](https://dmce.ac.in) (2015 - 2019)  
 - Qualified in GATE CS (2024)
 
 #### Key Projects:
 ---
-Edge-AI Powered System for Water Quality Assessment | M.Tech Project
-June 2025 – May 2026  
+Edge-AI Powered System for Water Quality Assessment | M.Tech Project | June 2025 – May 2026  
 - Developing an edge AI solution using embedded sensors and ML models to assess water quality in real time
 - Involves on-device inference, data synchronization between edge nodes, data preprocessing, model
 deployment, and cloud integration for scalable insights
