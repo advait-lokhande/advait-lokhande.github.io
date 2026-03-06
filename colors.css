@@ -1,0 +1,21 @@
+/*  colors */
+:root {
+    /* global scope */
+    --bg-clr:black;
+    /* --body-clr: #1A1A1A; */
+    --body-clr: black;
+    --border-clr: white;
+    --text-clr: white;
+
+    /* --bg-clr:white;
+    --body-clr: white;
+    --border-clr: black;
+    --text-clr: black; */
+
+    /* --cardHead-clr: var(--body-clr);
+    --card-clr: #1A1A1A; */
+    --cardBody-clr: var(--body-clr);
+    /* --cardBody-clr: #0635c940; */
+    --cardHead-clr: #1A1A1A;
+    --card-clr: #1A1A1A;
+}

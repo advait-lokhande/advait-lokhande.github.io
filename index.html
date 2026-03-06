@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="./styles.css">
-    
     <!-- todo: self hos fonts in libs -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet" href="./colors.css">
+    <link rel="stylesheet" href="./styles.css">
+    
     <link rel="icon" href="./assets/al_icon_v0.png" type="image/x-icon">
     <title>Advait Lokhande</title>
 </head>
+
 <body>
     <div class="body">
 
         <div id='header' class="header">
-            <div class="name"><a href="/index.html">अद्वैत लोखंडे | Advait Lokhande</a></div>
+            <div class="name"><a href="/index.html">अद्वैत लोखंडे | | Advait Lokhande</a></div>
             <div class="navbar">
+                <div class="navbarItemArrow navbarItem" id="nav_l>" onclick="navbarclick(this.id)">
+                    &lt
+                </div>
                 <div class="navbarItem" id="nav_Home" onclick="navbarclick(this.id)">
                     <a href="/index.html">Home</a>
                 </div>
-                <div class="navbarItem" id="nav_About" onclick="navbarclick(this.id)">
+                <!-- <div class="navbarItem" id="nav_About" onclick="navbarclick(this.id)">
                     <a href="/">About</a>
-                </div>
+                </div> -->
                 <div class="navbarItem" id="nav_Projects" onclick="navbarclick(this.id)">
                     <a href="/">Projects</a>
                 </div>
@@ -33,60 +38,138 @@
                     <a href="/">Music</a>
                 </div>
                 <div class="navbarItem" id="nav_Blogs" onclick="navbarclick(this.id)">
-                    <a href="/">Blogs</a>
+                    <a href="/">Blog</a>
                 </div>
-                <div class="navbarItem" id="nav_Life" onclick="navbarclick(this.id)">
+                <!-- <div class="navbarItem" id="nav_Life" onclick="navbarclick(this.id)">
                     <a href="/">Life</a>
-                </div>
+                </div> -->
                 <div class="navbarItem" id="nav_People" onclick="navbarclick(this.id)">
                     <a href="/">People</a>
+                </div>
+                <div class="navbarItemArrow navbarItem" id="nav_r>" onclick="navbarclick(this.id)">
+                    &gt
                 </div>
             </div>
         </div>
     
         <div class="intro">
-            <div>
+            <div class="dpImgContainer">
                 <img src="./assets/advait_dp.jpg" alt="" class="dpImg"> 
                 <!-- <img src="./assets/white_bg_Sqr.png" alt="" class="dpImg">  -->
             </div>
-            <div class="namasteBlock">
-                <p>
+            
+            <div id="namasteBlock" >
+                
+                <div id="namastePar">
                     <!-- <img src="./assets/prayingWhite.png" alt="" class="namasteImg">  -->
                     <span class="namaste"> Namaste!</span>  
-                    <!-- <br> -->
-                <!-- </p>
-                <p> -->
-                    I passionately research, design, make & (purposefully) break stuff 
-                    as a student of 
-                    Electronics & Computer Science Engineering, 
-                    Entrepreneurship 
-                    and 
-                    Music (Tabla).
-                </p>
+                    I professionally ideate, research, make, break and systematically experiment with things to build working systems.
+                </div>
+                <!-- <p>
+                    I am passionate about making a positive impact around me with technology and music.
+                </p> -->
                 <p>
-                    <!-- This site is mostly about these shenanigans of mine.  -->
-                    <!-- Here, you can find more about me and my projects. -->
-                    Here, you can find more about me and my shenanigans.
+                    [ Engineering R&D - Electronics & Computer Science ] 
+                    [ Music - Tabla & Percussion Instruments ] 
+                    [ Entrepreneurship ]
                 </p>
+                <!-- <p>4+ Years of Experience</p> -->
+        
+                <div class="socials">
+                    Feel free to reach me on >>
+                    <a href="https://linkedin.com/in/advait-lokhande" target="_blank">LinkedIn</a>
+                    <a href="https://instragram.com/advait.projx" target="_blank">Instagram</a>
+                    <!-- <a href="">LinkedIn</a> -->
+                    <!-- <a href="">LinkedIn</a> -->
+                </div>
             </div>
+            
+        </div>
+
+        <h2>Core Areas</h2>
+
+        <div class="introThingsCardContainer">
+
+            <div class="introThingsCard">
+                <img class="introThingsCardIcon" src="./assets/chipIcon_0635c9.svg" alt="" >
+                <div class="introThingsCardBody">
+                    <div class="introThingsCardHead">
+                        Electronics & Computer Science Engineering
+                    </div>
+                    <div class="skillTagContainer">
+                        <span class="skillTag"> Embedded systems  </span>
+                        <span class="skillTag"> IoT </span>
+                        <span class="skillTag"> Robotics </span>
+                        <span class="skillTag"> AI & ML  </span>
+                        <span class="skillTag"> Edge Computing Hardware </span>
+                    </div>
+                    <div class="skillTagContainer">
+                        <span class="skillTag"> RTOS </span>
+                        <span class="skillTag"> Baremetal Firmware </span>
+                        <span class="skillTag"> Embedded Linux </span>
+                        <span class="skillTag"> IoT Middleware </span>
+                        <span class="skillTag"> System Architecture & Design </span>
+                        <span class="skillTag"> Schematic & PCB Design </span>
+                        <span class="skillTag"> Rapid Prototyping </span>
+                        <span class="skillTag"> ARM Cortex-M  </span>
+                        <span class="skillTag"> STM32  </span>
+                        <span class="skillTag"> ESP32  </span>
+                        <span class="skillTag"> nRF52  </span>
+                        <span class="skillTag"> MSP430/CC2640  </span>
+                        <span class="skillTag"> AVR  </span>
+                        <span class="skillTag"> 8051  </span>
+                        <span class="skillTag"> NXP i.MX8  </span>
+                        <span class="skillTag"> Xilinx FPGA  </span>
+                        <span class="skillTag"> Raspberry Pi  </span>
+                        <span class="skillTag"> Arduino </span>
+                        <span class="skillTag"> BLE </span>
+                        <span class="skillTag"> MQTT </span>
+                        <span class="skillTag"> Websockets </span>
+                        <span class="skillTag"> 3D Printing </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="introThingsCard">
+                <img class="introThingsCardIcon" src="./assets/tablaIcon_blue.svg" alt="" >
+                <div class="introThingsCardBody">
+                    <div class="introThingsCardHead">
+                        Music
+                    </div>
+                    <div class="skillTagContainer">
+                        <span class="skillTag"> Tabla (Indian Classical Percussion) </span>
+                        <span class="skillTag"> Other percussion instruments </span>
+                    </div>
+                </div>
+            </div>           
+
+            <!-- <div class="introThingsCard">
+                <div class="introThingsCardIcon"></div>
+                <div class="introThingsCardHead">Entrepreneurship</div>
+                <div class="introThingsCardBody">
+                    I team up with people to bring ideas to life, and solve real-world problems.
+                </div>
+            </div> -->
+
         </div>
 
         <div class="midBlocksContainer">
 
-            <div class="midBlock">
+            <!-- <div class="midBlock">
                 <div class="midBlockHeader">
                     Areas of Interest / Focus:
                 </div>
                 <div id="areas" class="midBlockContent"></div>
 
-            </div>
+            </div> -->
 
-            <div class="midBlock">
+            <!-- <div class="midBlock">
                 <div class="midBlockHeader">
                     Updates:
                 </div>
                 <div id="updates" class="midBlockContent"></div>
-            </div>
+            </div> -->
 
             <div class="midBlock">
                 <div class="midBlockHeader">

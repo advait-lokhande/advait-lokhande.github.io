@@ -29,23 +29,23 @@ async function getmd(link){
 }
 
 async function rendermd() {
-    let areas = ""
-    try {
-        areas = await getmd('./md_content/focus_areas.md')
-    } catch (error) {
-        console.error(error)
-    }
-    // console.log(areas)
-    document.getElementById('areas').innerHTML = marked.parse(areas);
+    // let areas = ""
+    // try {
+    //     areas = await getmd('./md_content/focus_areas.md')
+    // } catch (error) {
+    //     console.error(error)
+    // }
+    // // console.log(areas)
+    // document.getElementById('areas').innerHTML = marked.parse(areas);
 
-    let updates = ""
-    try {
-        updates = await getmd('./md_content/updates.md')
-    } catch (error) {
-        console.error(error)
-    }
-    // console.log(updates)
-    document.getElementById('updates').innerHTML = marked.parse(updates);
+    // let updates = ""
+    // try {
+    //     updates = await getmd('./md_content/updates.md')
+    // } catch (error) {
+    //     console.error(error)
+    // }
+    // // console.log(updates)
+    // document.getElementById('updates').innerHTML = marked.parse(updates);
 }
 
 // async function rendermd_ol(target,link) {

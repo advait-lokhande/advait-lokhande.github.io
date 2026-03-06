@@ -1,0 +1,33 @@
+        <div class="intro">
+            <div>
+                <img src="./assets/advait_dp.jpg" alt="" class="dpImg"> 
+                <!-- <img src="./assets/white_bg_Sqr.png" alt="" class="dpImg">  -->
+            </div>
+            <div class="namasteBlock">
+                <p>
+                    <!-- <img src="./assets/prayingWhite.png" alt="" class="namasteImg">  -->
+                    <span class="namaste"> Namaste!</span>  
+                    <!-- <br> -->
+                </p>
+                <p>
+                    I am an Engineer, Musician and an Entrepreneur.
+                </p>
+                <p>
+                    I research, design and develop things
+                    across
+                    Electronics & Computer Science Engineering.
+                    <!-- Entrepreneurship  -->
+                <!-- </p>
+                <p> -->
+                    Along with that, I make music, play Tabla (Indian classical percussion) and other instruments.
+                <!-- </p>
+                <p> -->
+                    As a passionate entrepreneur, I team up with people to bring ideas to life, and build systems that solve real-world problems.
+                </p>
+                <p>
+                    <!-- This site is mostly about these shenanigans of mine.  -->
+                    <!-- Here, you can find more about me and my projects. -->
+                    <!-- Here, you can find more about me and my shenanigans. -->
+                </p>
+            </div>
+        </div>
